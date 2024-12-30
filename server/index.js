@@ -6,7 +6,7 @@ import cookieParser from 'cookie-parser';
 
 const app = express()
 app.use(cors({
-    origin: [`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}`],
+    origin: ["brain-field-classroom-client.vercel.app"],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }))
